@@ -1,0 +1,1090 @@
+Using pip 24.2 from /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/pip (python 3.10)
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu121/torch2.4.0/index.html
+Collecting mmsegmentation==0.27.0 (from -r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for mmsegmentation==0.27.0 from https://files.pythonhosted.org/packages/1b/d2/72650f19c5c01aaa0e4cc9d3dd7854b780db547e7d4664c45fe6aee3c708/mmsegmentation-0.27.0-py3-none-any.whl.metadata
+  Downloading mmsegmentation-0.27.0-py3-none-any.whl.metadata (13 kB)
+Collecting mmcv==2.2.0 (from -r dinov2_mim_req.txt (line 4))
+  Downloading mmcv-2.2.0.tar.gz (479 kB)
+  Preparing metadata (setup.py): started
+  Running command python setup.py egg_info
+  No ROCm runtime is found, using ROCM_HOME='/opt/rocm-6.0.2'
+  No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda-12.1'
+  running egg_info
+  creating /tmp/pip-pip-egg-info-fpe_o4u2/mmcv.egg-info
+  writing manifest file '/tmp/pip-pip-egg-info-fpe_o4u2/mmcv.egg-info/SOURCES.txt'
+  writing manifest file '/tmp/pip-pip-egg-info-fpe_o4u2/mmcv.egg-info/SOURCES.txt'
+  Preparing metadata (setup.py): finished with status 'done'
+Ignoring mmcls: markers 'extra == "mim"' don't match your environment
+Ignoring mmcv-full: markers 'extra == "mim"' don't match your environment
+Collecting matplotlib (from mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for matplotlib from https://files.pythonhosted.org/packages/a7/68/16e7b9154fae61fb29f0f3450b39b855b89e6d2c598d67302e70f96883af/matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting mmcls>=0.20.1 (from mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for mmcls>=0.20.1 from https://files.pythonhosted.org/packages/1f/7d/19588f57c22f4053ca2db92c691fbea556899f407fe7bb03ed42b37f07ef/mmcls-0.25.0-py2.py3-none-any.whl.metadata
+  Downloading mmcls-0.25.0-py2.py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: numpy in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3)) (1.26.4)
+Requirement already satisfied: packaging in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3)) (24.1)
+Collecting prettytable (from mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for prettytable from https://files.pythonhosted.org/packages/c5/16/ec5cc65437dce97d2814a7ba31842b0ee958d102f6e99e264c35f15c328f/prettytable-3.10.2-py3-none-any.whl.metadata
+  Downloading prettytable-3.10.2-py3-none-any.whl.metadata (30 kB)
+Collecting addict (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for addict from https://files.pythonhosted.org/packages/6a/00/b08f23b7d7e1e14ce01419a467b583edbb93c6cdb8654e54a9cc579cd61f/addict-2.4.0-py3-none-any.whl.metadata
+  Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+Collecting mmengine>=0.3.0 (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for mmengine>=0.3.0 from https://files.pythonhosted.org/packages/0b/03/e8a1da1e73d6d9ba3ada49780c0c27afcea4607539ccf9a4be75e2b08533/mmengine-0.10.4-py3-none-any.whl.metadata
+  Downloading mmengine-0.10.4-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: Pillow in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (10.4.0)
+Requirement already satisfied: pyyaml in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (6.0.1)
+Collecting yapf (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for yapf from https://files.pythonhosted.org/packages/66/c9/d4b03b2490107f13ebd68fe9496d41ae41a7de6275ead56d0d4621b11ffd/yapf-0.40.2-py3-none-any.whl.metadata
+  Downloading yapf-0.40.2-py3-none-any.whl.metadata (45 kB)
+Collecting opencv-python>=3 (from mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for opencv-python>=3 from https://files.pythonhosted.org/packages/3f/a4/d2537f47fd7fcfba966bd806e3ec18e7ee1681056d4b0a9c8d983983e4d5/opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Ignoring mmcv-full: markers 'extra == "mim"' don't match your environment
+Collecting contourpy>=1.0.1 (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for contourpy>=1.0.1 from https://files.pythonhosted.org/packages/67/0f/6e5b4879594cd1cbb6a2754d9230937be444f404cf07c360c07a10b36aac/contourpy-1.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading contourpy-1.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+Collecting cycler>=0.10 (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for cycler>=0.10 from https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl.metadata
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for fonttools>=4.22.0 from https://files.pythonhosted.org/packages/56/61/ad19cad430aacbc3418be503e1f6daed9375c997a4e32b78a91195b3054a/fonttools-4.53.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading fonttools-4.53.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (162 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for kiwisolver>=1.3.1 from https://files.pythonhosted.org/packages/6f/40/4ab1fdb57fced80ce5903f04ae1aed7c1d5939dda4fd0c0aa526c12fe28a/kiwisolver-1.4.5-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata
+  Downloading kiwisolver-1.4.5-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for pyparsing>=2.3.1 from https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl.metadata
+  Downloading pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: python-dateutil>=2.7 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3)) (2.9.0.post0)
+Requirement already satisfied: rich in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmengine>=0.3.0->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (13.4.2)
+Requirement already satisfied: termcolor in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from mmengine>=0.3.0->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (2.4.0)
+Collecting wcwidth (from prettytable->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3))
+  Obtaining dependency information for wcwidth from https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl.metadata
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: importlib-metadata>=6.6.0 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from yapf->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (8.2.0)
+Collecting platformdirs>=3.5.1 (from yapf->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for platformdirs>=3.5.1 from https://files.pythonhosted.org/packages/68/13/2aa1f0e1364feb2c9ef45302f387ac0bd81484e9c9a4c5688a322fbdfd08/platformdirs-4.2.2-py3-none-any.whl.metadata
+  Downloading platformdirs-4.2.2-py3-none-any.whl.metadata (11 kB)
+Collecting tomli>=2.0.1 (from yapf->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4))
+  Obtaining dependency information for tomli>=2.0.1 from https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl.metadata
+  Downloading tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+Requirement already satisfied: zipp>=0.5 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from importlib-metadata>=6.6.0->yapf->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (3.19.2)
+Requirement already satisfied: six>=1.5 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from python-dateutil>=2.7->matplotlib->mmsegmentation==0.27.0->-r dinov2_mim_req.txt (line 3)) (1.16.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from rich->mmengine>=0.3.0->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from rich->mmengine>=0.3.0->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (2.18.0)
+Requirement already satisfied: mdurl~=0.1 in /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv==2.2.0->-r dinov2_mim_req.txt (line 4)) (0.1.2)
+Downloading mmsegmentation-0.27.0-py3-none-any.whl (817 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 817.6/817.6 kB 8.4 MB/s eta 0:00:00
+Downloading mmcls-0.25.0-py2.py3-none-any.whl (648 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 648.8/648.8 kB 10.4 MB/s eta 0:00:00
+Downloading matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 11.6 MB/s eta 0:00:00
+Downloading mmengine-0.10.4-py3-none-any.whl (451 kB)
+Downloading opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (62.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 MB 11.2 MB/s eta 0:00:00
+Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Downloading prettytable-3.10.2-py3-none-any.whl (28 kB)
+Downloading yapf-0.40.2-py3-none-any.whl (254 kB)
+Downloading contourpy-1.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (305 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.53.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 11.5 MB/s eta 0:00:00
+Downloading kiwisolver-1.4.5-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 8.9 MB/s eta 0:00:00
+Downloading platformdirs-4.2.2-py3-none-any.whl (18 kB)
+Downloading pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Building wheels for collected packages: mmcv
+  Building wheel for mmcv (setup.py): started
+  Running command python setup.py bdist_wheel
+  No ROCm runtime is found, using ROCM_HOME='/opt/rocm-6.0.2'
+  No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda-12.1'
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.10
+  creating build/lib.linux-x86_64-3.10/mmcv
+  copying mmcv/version.py -> build/lib.linux-x86_64-3.10/mmcv
+  copying mmcv/__init__.py -> build/lib.linux-x86_64-3.10/mmcv
+  creating build/lib.linux-x86_64-3.10/mmcv/utils
+  copying mmcv/utils/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/utils
+  copying mmcv/utils/env.py -> build/lib.linux-x86_64-3.10/mmcv/utils
+  copying mmcv/utils/ext_loader.py -> build/lib.linux-x86_64-3.10/mmcv/utils
+  copying mmcv/utils/device_type.py -> build/lib.linux-x86_64-3.10/mmcv/utils
+  copying mmcv/utils/parrots_jit.py -> build/lib.linux-x86_64-3.10/mmcv/utils
+  creating build/lib.linux-x86_64-3.10/mmcv/cnn
+  copying mmcv/cnn/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/cnn
+  copying mmcv/cnn/alexnet.py -> build/lib.linux-x86_64-3.10/mmcv/cnn
+  copying mmcv/cnn/vgg.py -> build/lib.linux-x86_64-3.10/mmcv/cnn
+  copying mmcv/cnn/resnet.py -> build/lib.linux-x86_64-3.10/mmcv/cnn
+  creating build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/colorspace.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/geometric.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/photometric.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/io.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  copying mmcv/image/misc.py -> build/lib.linux-x86_64-3.10/mmcv/image
+  creating build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/pixel_group.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_conv.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/three_interpolate.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/tin_shift.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/gather_points.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/knn.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/iou3d.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/nms.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/convex_iou.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/chamfer_distance.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/active_rotated_filter.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/three_nn.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/deform_conv.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_pool.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/furthest_point_sample.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/point_sample.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/scatter_points.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/points_in_boxes.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/psa_mask.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_ops.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/merge_cells.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/saconv.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/multi_scale_deform_attn.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/cc_attention.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/assign_score_withk.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/riroi_align_rotated.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sync_bn.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/points_in_polygons.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/bezier_align.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/roi_align.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/voxelize.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/border_align.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_functional.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/upfirdn2d.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/bbox.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/modulated_deform_conv.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/fused_bias_leakyrelu.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_structure.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/bias_act.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/sparse_modules.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/info.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/points_sampler.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/deform_roi_pool.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/masked_conv.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/carafe.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/diff_iou_rotated.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/box_iou_quadri.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/corner_pool.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/correlation.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/roi_align_rotated.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/filtered_lrelu.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/rotated_feature_align.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/min_area_polygons.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/contour_expand.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/group_points.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/box_iou_rotated.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/prroi_pool.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/roi_pool.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/roiaware_pool3d.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/roipoint_pool3d.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/ball_query.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/focal_loss.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/deprecated_wrappers.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  copying mmcv/ops/conv2d_gradfix.py -> build/lib.linux-x86_64-3.10/mmcv/ops
+  creating build/lib.linux-x86_64-3.10/mmcv/arraymisc
+  copying mmcv/arraymisc/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/arraymisc
+  copying mmcv/arraymisc/quantization.py -> build/lib.linux-x86_64-3.10/mmcv/arraymisc
+  creating build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/builder.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/processing.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/loading.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/formatting.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/base.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/utils.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  copying mmcv/transforms/wrappers.py -> build/lib.linux-x86_64-3.10/mmcv/transforms
+  creating build/lib.linux-x86_64-3.10/mmcv/video
+  copying mmcv/video/processing.py -> build/lib.linux-x86_64-3.10/mmcv/video
+  copying mmcv/video/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/video
+  copying mmcv/video/optflow.py -> build/lib.linux-x86_64-3.10/mmcv/video
+  copying mmcv/video/io.py -> build/lib.linux-x86_64-3.10/mmcv/video
+  creating build/lib.linux-x86_64-3.10/mmcv/visualization
+  copying mmcv/visualization/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/visualization
+  copying mmcv/visualization/image.py -> build/lib.linux-x86_64-3.10/mmcv/visualization
+  copying mmcv/visualization/optflow.py -> build/lib.linux-x86_64-3.10/mmcv/visualization
+  copying mmcv/visualization/color.py -> build/lib.linux-x86_64-3.10/mmcv/visualization
+  creating build/lib.linux-x86_64-3.10/mmcv/cnn/rfsearch
+  copying mmcv/cnn/rfsearch/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/rfsearch
+  copying mmcv/cnn/rfsearch/search.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/rfsearch
+  copying mmcv/cnn/rfsearch/operator.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/rfsearch
+  copying mmcv/cnn/rfsearch/utils.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/rfsearch
+  creating build/lib.linux-x86_64-3.10/mmcv/cnn/utils
+  copying mmcv/cnn/utils/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/utils
+  copying mmcv/cnn/utils/flops_counter.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/utils
+  copying mmcv/cnn/utils/fuse_conv_bn.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/utils
+  creating build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/generalized_attention.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/__init__.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/hswish.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/conv_module.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/padding.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/conv2d_adaptive_padding.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/upsample.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/depthwise_separable_conv_module.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/swish.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/hsigmoid.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/scale.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/conv.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/drop.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/transformer.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/non_local.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/activation.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/norm.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/plugin.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/conv_ws.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/wrappers.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  copying mmcv/cnn/bricks/context_block.py -> build/lib.linux-x86_64-3.10/mmcv/cnn/bricks
+  running egg_info
+  writing manifest file 'mmcv.egg-info/SOURCES.txt'
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/box_iou_rotated_utils.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/parrots_cpp_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/parrots_cuda_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_cpp_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_cuda_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_device_registry.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_mlu_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_npu_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  copying mmcv/ops/csrc/common/pytorch_npu_util.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/active_rotated_filter_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/assign_score_withk_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/ball_query_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/bbox_overlaps_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/bezier_align_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/border_align_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/box_iou_quadri_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/box_iou_rotated_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/carafe_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/carafe_naive_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/chamfer_distance_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/common_cuda_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/convex_iou_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/correlation_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/deform_conv_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/deform_roi_pool_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/diff_iou_rotated_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/furthest_point_sample_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/gather_points_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/group_points_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/iou3d_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/knn_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/masked_conv2d_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/min_area_polygons_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/modulated_deform_conv_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/ms_deform_attn_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/nms_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/nms_quadri_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/nms_rotated_cuda.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/parrots_cudawarpfunction.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/points_in_boxes_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/points_in_polygons_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/prroi_pool_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/psamask_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/riroi_align_rotated_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/roi_align_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/roi_align_rotated_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/roi_pool_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/roiaware_pool3d_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/roipoint_pool3d_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/rotated_feature_align_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/scatter_points_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/sigmoid_focal_loss_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/softmax_focal_loss_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/stack_ball_query_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/stack_group_points_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/sync_bn_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/three_interpolate_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/three_nn_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/tin_shift_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  copying mmcv/ops/csrc/common/cuda/voxelization_cuda_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda/spconv
+  copying mmcv/ops/csrc/common/cuda/spconv/indice.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda/spconv
+  copying mmcv/ops/csrc/common/cuda/spconv/reordering.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/cuda/spconv
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mlu
+  copying mmcv/ops/csrc/common/mlu/common_mlu_helper.hpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mlu
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  copying mmcv/ops/csrc/common/mps/MPSDevice.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  copying mmcv/ops/csrc/common/mps/MPSLibrary.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  copying mmcv/ops/csrc/common/mps/MPSLibrary.mm -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  copying mmcv/ops/csrc/common/mps/MPSStream.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  copying mmcv/ops/csrc/common/mps/MPSUtils.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/mps
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/paramsgrid.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/prettyprint.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/pybind11_utils.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/indice.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/maxpool.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/mp_helper.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/point2voxel.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  copying mmcv/ops/csrc/common/utils/spconv/spconv/reordering.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/spconv
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/tensorview
+  copying mmcv/ops/csrc/common/utils/spconv/tensorview/helper_kernel.cuh -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/tensorview
+  copying mmcv/ops/csrc/common/utils/spconv/tensorview/helper_launch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/tensorview
+  copying mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/common/utils/spconv/tensorview
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/active_rotated_filter.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/active_rotated_filter_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/active_rotated_filter_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/assign_score_withk.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/assign_score_withk_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/assign_score_withk_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/ball_query._parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/ball_query.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/ball_query_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/bbox_overlaps.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/bbox_overlaps_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/bbox_overlaps_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/border_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/border_align_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/border_align_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/box_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/box_iou_rotated_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/box_iou_rotated_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe_naive.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe_naive_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe_naive_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/carafe_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/chamfer_distance.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/chamfer_distance_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/chamfer_distance_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/contour_expand.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/contour_expand_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/contour_expand_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/convex_iou.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/convex_iou_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/convex_iou_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/correlation.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/correlation_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/correlation_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/cudabind.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_conv_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_conv_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_roi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_roi_pool_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/deform_roi_pool_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/diff_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/diff_iou_rotated_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/diff_iou_rotated_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/focal_loss.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/focal_loss_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/focal_loss_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/furthest_point_sample.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/furthest_point_sample_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/furthest_point_sample_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/fused_bias_leakyrelu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/fused_bias_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/gather_points.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/gather_points_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/gather_points_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/group_points.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/group_points_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/group_points_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/info.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/iou3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/iou3d_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/iou3d_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/knn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/knn_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/knn_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/masked_conv2d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/masked_conv2d_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/masked_conv2d_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/min_area_polygons.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/min_area_polygons_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/min_area_polygons_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/modulated_deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/modulated_deform_conv_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/modulated_deform_conv_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/ms_deform_attn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/ms_deform_attn_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/nms.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/nms_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/nms_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/nms_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/pixel_group.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/pixel_group_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/pixel_group_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_boxes.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_boxes_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_boxes_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_polygons.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_polygons_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/points_in_polygons_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/prroi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/prroi_pool_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/prroi_pool_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/psamask.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/psamask_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/psamask_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/riroi_align_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/riroi_align_rotated_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/riroi_align_rotated_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align_rotated_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_align_rotated_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_pool_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roi_pool_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roiaware_pool3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roiaware_pool3d_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roiaware_pool3d_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roipoint_pool3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roipoint_pool3d_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/roipoint_pool3d_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/rotated_feature_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/rotated_feature_align_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/rotated_feature_align_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/sync_bn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/sync_bn_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/sync_bn_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_interpolate.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_interpolate_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_interpolate_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_nn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_nn_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/three_nn_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/tin_shift.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/tin_shift_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/tin_shift_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/upfirdn2d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/upfirdn2d_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/voxelization.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/voxelization_parrots.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  copying mmcv/ops/csrc/parrots/voxelization_pytorch.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/parrots
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/active_rotated_filter.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/assign_score_withk.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/ball_query.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/bbox_overlaps.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/bezier_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/bias_act.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/border_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/box_iou_quadri.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/box_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/carafe.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/carafe_naive.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/chamfer_distance.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/contour_expand.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/convex_iou.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/correlation.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/deform_roi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/diff_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/filtered_lrelu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/focal_loss.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/furthest_point_sample.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/fused_bias_leakyrelu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/fused_spconv_ops.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/gather_points.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/group_points.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/info.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/iou3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/knn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/masked_conv2d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/min_area_polygons.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/modulated_deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/ms_deform_attn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/nms.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/nms_quadri.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/nms_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/pixel_group.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/points_in_boxes.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/points_in_polygons.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/prroi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/psamask.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/pybind.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/riroi_align_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/roi_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/roi_align_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/roi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/roiaware_pool3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/roipoint_pool3d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/rotated_feature_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/scatter_points.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/sparse_pool_ops.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/spconv_ops.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/spconv_utils.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/sync_bn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/three_interpolate.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/three_nn.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/tin_shift.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/upfirdn2d.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  copying mmcv/ops/csrc/pytorch/voxelization.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/bbox_overlaps_cpu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/bezier_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/box_iou_quadri.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/box_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/modulated_deform_conv.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/nms.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/nms_quadri.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/nms_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/pixel_group.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/points_in_boxes.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/psamask.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/roi_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/roi_align_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/rotated_feature_align.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/sparse_reordering.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  copying mmcv/ops/csrc/pytorch/cpu/voxelization.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/active_rotated_filter_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/assign_score_withk_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/ball_query_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/bbox_overlaps_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/bezier_align_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/bias_act_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/border_align_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/box_iou_quadri_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/box_iou_rotated_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/carafe_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/carafe_naive_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/chamfer_distance_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/convex_iou.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/correlation_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/cudabind.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/deform_conv_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/deform_roi_pool_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/diff_iou_rotated_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/filtered_lrelu.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/focal_loss_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/furthest_point_sample_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/fused_bias_leakyrelu_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/fused_spconv_ops_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/gather_points_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/group_points_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/iou3d_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/knn_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/masked_conv2d_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/min_area_polygons.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/modulated_deform_conv_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/ms_deform_attn_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/nms_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/nms_quadri_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/nms_rotated_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/points_in_boxes_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/points_in_polygons_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/prroi_pool_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/psamask_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/riroi_align_rotated_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/roi_align_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/roi_align_rotated_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/roi_pool_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/roiaware_pool3d_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/roipoint_pool3d_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/rotated_feature_align_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/scatter_points_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/sparse_indice.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/sparse_maxpool.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/sparse_pool_ops_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/sparse_reordering.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/spconv_ops_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/stack_ball_query_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/stack_group_points_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/sync_bn_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/three_interpolate_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/three_nn_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/tin_shift_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/upfirdn2d_kernel.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  copying mmcv/ops/csrc/pytorch/cuda/voxelization_cuda.cu -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/ball_query_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/bbox_overlaps_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/box_iou_rotated.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/carafe_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/deform_roi_pool_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/diff_iou_rotated_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/focal_loss_sigmoid_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/iou3d_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/masked_conv2d_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/mlu_common_helper.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/mlu_common_helper.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/ms_deform_attn_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/nms_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/nms_rotated_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/psamask_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/roi_align_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/roi_align_rotated_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/roi_pool_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/roiaware_pool3d_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/roipoint_pool3d_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/rotated_feature_align_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/scatter_points_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/sparse_conv_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/three_nn_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/tin_shift_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  copying mmcv/ops/csrc/pytorch/mlu/voxelization_mlu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mlu
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mps
+  copying mmcv/ops/csrc/pytorch/mps/bbox_overlaps_mps.mm -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/mps
+  creating build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/active_rotated_filter_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/ball_query_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/bbox_overlaps_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/box_iou_rotated_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/chamfer_distance_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/common_util.h -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/deform_roi_pool.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/focal_loss_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/fused_bias_leakyrelu_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/gather_points_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/group_points_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/ms_deform_attn_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/nms_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/nms_rotated_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/points_in_polygons_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/psa_mask_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/roi_align_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/roi_align_rotated_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/roi_pool_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/rotated_feature_align_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/stack_ball_query_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/stack_group_points_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/three_interpolate_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  copying mmcv/ops/csrc/pytorch/npu/voxelization_npu.cpp -> build/lib.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/npu
+  running build_ext
+  /home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/utils/cpp_extension.py:424: UserWarning: There are no /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ version bounds defined for CUDA version 12.1
+    warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu
+  creating /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cuda
+  Emitting ninja build file /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/build.ninja...
+  Compiling objects...
+  Using envvar MAX_JOBS (11) as the number of workers...
+  [1/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/carafe.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/carafe.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/carafe.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [2/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/box_iou_quadri.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/box_iou_quadri.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/box_iou_quadri.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [3/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/carafe_naive.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/carafe_naive.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/carafe_naive.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [4/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bbox_overlaps.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/bbox_overlaps.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bbox_overlaps.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [5/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/ball_query.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/ball_query.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/ball_query.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [6/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/assign_score_withk.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/assign_score_withk.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/assign_score_withk.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [7/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bezier_align.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/bezier_align.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bezier_align.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [8/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/box_iou_rotated.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/box_iou_rotated.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/box_iou_rotated.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [9/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bias_act.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/bias_act.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/bias_act.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [10/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/active_rotated_filter.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/active_rotated_filter.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/active_rotated_filter.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [11/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/border_align.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/border_align.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/border_align.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [12/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/chamfer_distance.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/chamfer_distance.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/chamfer_distance.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [13/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/modulated_deform_conv.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/modulated_deform_conv.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/modulated_deform_conv.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [14/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/convex_iou.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/convex_iou.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/convex_iou.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [15/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/contour_expand.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/contour_expand.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/contour_expand.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [16/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.cpp:16: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+     16 | #pragma omp parallel for private(i, j, l, k)
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/active_rotated_filter.cpp:44: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+     44 | #pragma omp parallel for private(i, j, l, k)
+        |
+  [17/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/correlation.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/correlation.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/correlation.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [18/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/bbox_overlaps_cpu.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/bbox_overlaps_cpu.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/bbox_overlaps_cpu.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [19/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/deform_conv.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/deform_conv.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/deform_conv.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [20/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/box_iou_quadri.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/box_iou_quadri.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/box_iou_quadri.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/box_iou_quadri.cpp:2:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/box_iou_rotated_utils.hpp:276: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    276 | #pragma unroll
+        |
+  [21/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/box_iou_rotated.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/box_iou_rotated.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/box_iou_rotated.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/box_iou_rotated.cpp:4:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/box_iou_rotated_utils.hpp:276: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    276 | #pragma unroll
+        |
+  [22/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/bezier_align.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/bezier_align.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/bezier_align.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [23/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/nms.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [24/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/points_in_boxes.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/points_in_boxes.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/points_in_boxes.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [25/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/pixel_group.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/pixel_group.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/pixel_group.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [26/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms_rotated.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/nms_rotated.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms_rotated.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/nms_rotated.cpp:4:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/box_iou_rotated_utils.hpp:276: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    276 | #pragma unroll
+        |
+  [27/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/roi_align.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/roi_align.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/roi_align.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [28/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms_quadri.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/nms_quadri.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/nms_quadri.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/nms_quadri.cpp:2:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/box_iou_rotated_utils.hpp:276: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    276 | #pragma unroll
+        |
+  [29/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/psamask.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/psamask.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/psamask.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [30/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/rotated_feature_align.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/rotated_feature_align.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/rotated_feature_align.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [31/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/roi_align_rotated.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/roi_align_rotated.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/roi_align_rotated.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [32/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/maxpool.h:17,
+                   from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.cpp:16:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:387: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    387 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:412: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    412 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:436: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    436 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:447: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    447 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:885: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    885 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:895: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    895 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:901: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    901 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:907: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    907 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h: In instantiation of 'tv::ShapeBase<MaxDim> tv::ShapeBase<MaxDim>::subshape(int) const [with long unsigned int MaxDim = 6]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:922:54:   required from 'tv::TensorView<scalar_t, Rank> tv::TensorView<scalar_t, Rank>::subview(int, Integers ...) [with Integers = {}; scalar_t = const int; int Rank = -1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.cpp:29:37:   required from 'void functor::SparseMaxPoolForwardFunctor<tv::CPU, scalar_t, Index>::operator()(const tv::CPU&, tv::TensorView<scalar_t>, tv::TensorView<const scalar_t>, tv::TensorView<const scalar_t>, int) [with scalar_t = float; Index = int]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_maxpool.cpp:77:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:345:27: warning: comparison of integer expressions of different signedness: 'int' and 'const size_t' {aka 'const long unsigned int'} [-Wsign-compare]
+    345 |     for (int i = start; i < this->mSize; ++i) {
+        |                         ~~^~~~~~~~~~~~~
+  [33/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_indice.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_indice.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:18,
+                   from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:16:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:387: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    387 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:412: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    412 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:436: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    436 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:447: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    447 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:885: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    885 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:895: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    895 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:901: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    901 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:907: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    907 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:38: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+     38 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:46: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+     46 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:52: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+     52 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:60: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+     60 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:75: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+     75 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:100: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    100 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:105: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    105 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:110: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    110 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:118: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    118 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:131: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    131 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:156: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    156 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:161: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    161 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:207: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    207 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:212: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    212 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:256: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    256 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:261: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    261 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:80:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 1]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 2]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 3]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsDeConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:36:58:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:208:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    208 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:213:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    213 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsConv(tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:41:56:   required from 'Index functor::CreateConvIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:157:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    157 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    162 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h: In instantiation of 'Index getIndicePairsSubM(tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, const Index*, const Index*, const Index*, const Index*, const Index*) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]':
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:60:54:   required from 'Index functor::CreateSubMIndicePairFunctor<tv::CPU, Index, IndexGrid, NDim>::operator()(const tv::CPU&, tv::TensorView<const scalar_t>, tv::TensorView<IndexGrid>, tv::TensorView<scalar_t>, tv::TensorView<scalar_t>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, tv::SimpleVector<Index, NDim>, bool, bool) [with Index = long int; IndexGrid = int; unsigned int NDim = 4]'
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_indice.cpp:81:1:   required from here
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:257:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    257 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/geometry.h:262:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    262 |   for (int i = 0; i < NDim; ++i) {
+        |                   ~~^~~~~~
+  [34/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/voxelization.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/voxelization.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/voxelization.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  [35/136] /home/cmccarth/.conda/envs/dinov2/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_reordering.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cmccarth/.conda/envs/dinov2/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/cmccarth/.conda/envs/dinov2/include -fPIC -DMMCV_WITH_CUDA -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common -I/tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/cuda -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/TH -I/home/cmccarth/.conda/envs/dinov2/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.1/include -I/home/cmccarth/.conda/envs/dinov2/include/python3.10 -c -c /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_reordering.cpp -o /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/build/temp.linux-x86_64-3.10/mmcv/ops/csrc/pytorch/cpu/sparse_reordering.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_ext -D_GLIBCXX_USE_CXX11_ABI=0
+  In file included from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/spconv/reordering.h:17,
+                   from /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/pytorch/cpu/sparse_reordering.cpp:16:
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:387: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    387 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:412: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    412 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:436: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    436 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:447: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    447 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:885: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    885 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:895: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    895 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:901: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    901 | #pragma unroll
+        |
+  /tmp/pip-install-537ftmzu/mmcv_898b0c1ae49b4e04b2b6d63ede5ab3ea/mmcv/ops/csrc/common/utils/spconv/tensorview/tensorview.h:907: warning: ignoring '#pragma unroll ' [-Wunknown-pragmas]
+    907 | #pragma unroll
+        |

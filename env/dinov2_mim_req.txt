@@ -1,0 +1,5 @@
+# Original packages, get lots of build errors with older mmcv-full
+# mmcv-full==1.5.0
+# mmsegmentation==0.27.0
+mmsegmentation==1.2.2
+mmcv>=2.0.0rc4,<2.2.0  # Latest supported by mmsegmentation v1.2.2

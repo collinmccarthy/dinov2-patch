@@ -1,0 +1,19 @@
+name: dinov2
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  # CUDA 12.1 requires GCC <= 12.2, need to limit version or we'll get errors building mmcv
+  # See https://docs.nvidia.com/cuda/archive/12.1.1/cuda-toolkit-release-notes/index.html#cuda-compilers-new-features
+  - gxx_linux-64<=12.2
+  # Using local CUDA 12.1 installation so nvcc is available to build mmcv ops
+  # - cuda-toolkit=12.1
+  - pip
+#   - pip:
+#     # NOTE: Installing manually with `pip install -r dinov2_pip_req.txt` to see progress
+#     #       Either way must install mmlab packages with `mim install -r dinov2_mim_req.txt` after
+#     - -r dinov2_pip_req.txt
+
